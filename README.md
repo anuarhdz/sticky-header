@@ -1,4 +1,4 @@
-<h1 align="center">Quick Start Template ⚡️</h1>
+<h1 align="center">Sticky Header pattern</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -6,8 +6,12 @@
   </a>
 </p>
 
-> Setup to start a project with parcel and tailwind quickly. 
+> Sticky header pattern example
 
+## Dependencies
+* ParcelJS
+* TailwindCSS
+* PostCSS
 
 ## Install
 
@@ -20,17 +24,29 @@ npm install
 ```sh
 npm run start
 ```
-```sh
-npx parcel src/index.html
-```
+
 ## Build
 
 ```sh
 npm run build
 ```
-```sh
-npx parcel build src/index.html
+
+## HTML Markup 
+```html
+<header id="main-header" class="main-header">
+  <sticky-header>
+    <div class="components-container">
+      <div id="top-header">
+        ...
+      </div>
+      <div id="bottom-header">
+        ...
+      </div>
+    </div>
+  </sticky-header>
+</header>
 ```
+
 
 ## Author
 
