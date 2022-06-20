@@ -503,30 +503,6 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"7ovK9":[function(require,module,exports) {
-// async function animate(element, type) {
-//   let { default: gsap } = await import('gsap');
-//   switch (type) {
-//     case 'init': 
-//       if(element.id === 'top-header'){
-//         gsap.set(element, { autoAlpha: 0, display: 'none', yPercent: -100, onComplete: () => {
-//           console.log('hola')
-//         } })
-//       }
-//       break;
-//     case 'showTopHeader':
-//       gsap.to(element, { autoAlpha:1, yPercent: 0, duration: .5, ease: 'power2.out', display: 'block', delay: .3 });
-//       break;
-//     case 'hideTopHeader':
-//       gsap.to(element, { autoAlpha: 0, yPercent: -100, duration: .3, ease: 'power2.out', display: 'none' });
-//       break;
-//     case 'hideBottomHeader':
-//       gsap.to(element, { autoAlpha:0, yPercent: -100, display: 'none', duration: .2, ease: 'power2.out' });
-//       break;
-//     case 'showBottomHeader':
-//       gsap.to(element, { autoAlpha: 1, yPercent: 0, display: 'block', duration: .1, ease: 'power2.out' });
-//       break;
-//   }
-// }
 class StickyHeader extends HTMLElement {
     constructor(){
         super();
