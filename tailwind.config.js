@@ -8,7 +8,14 @@ module.exports = {
     container: {
       center: true,
     },
-    extend: {},
+    extend: {
+      colors: {
+        'pink-brand': '#FCC4F0',
+        'blue-brand': '#58CAF2',
+        'beige-brand': '#f9e9d2',
+        'skyblue-brand': '#a3d9de',
+      }
+    },
   },
   plugins: [],
 }
